@@ -275,6 +275,10 @@ button {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   background-color: var(--white-color);
+  border-bottom: 1px solid #eeeeee;
+}
+.cards:nth-child(-n + 6) {
+  margin-bottom: 30px;
 }
 .item-title {
   font-weight: bold;
